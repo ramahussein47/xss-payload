@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XSS PoC</title>
+</head>
+<body>
+  <h1>Testing DOM XSS</h1>
+
+  <script>
+    // Basic DOM XSS payload that pops an alert
+    alert("XSS Triggered from index.html");
+  </script>
+</body>
+</html>
