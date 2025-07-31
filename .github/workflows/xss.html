@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>OAuth Page</h1>
+    <script>
+      // Trigger the JS interface with fake error data
+      if (window.oAuth2 && window.oAuth2.processErrorAndFinish) {
+        window.oAuth2.processErrorAndFinish("error|hacked by the Omnii");
+      } else {
+        document.write("Interface not available");
+      }
+    </script>
+  </body>
+</html>
